@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    color: rgb(77, 54, 25);
+    text-align: center;
+    font-size: 20px;
+    font-family: impact;
+
+}
+.nav-bar-links ul{
+    text-align: center;
+    
+
+}  
+.nav-bar-links ul:hover{
+    border: 10px;
+    transition: 1s;
+}
+.nav-bar {
+    background-color: rgb(235, 226, 218);
+    border-radius: 2px;
+    margin: 0;
+    padding: 5px 148px 5px 450px;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    @media screen {
+        width: 768px;
+    }
+}
+.nav-bar-links{
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    text-decoration-style: none;
+    
+}
+
+.nav-bar-links a{
+   
+   color:rgb(223, 131, 18);
+   text-align: inline-block;
+   text-decoration: none;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+
+} 
+.nav-bar-links a:hover{
+    color:rgb(90, 54, 10);
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 0.5s;
+}
+.container{
+    text-align: center;
+    margin:50px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+label{
+    font-family: Arial, Helvetica, sans-serif;
+}
+fieldset{
+    background-color: rgb(235, 226, 218);
+    border: 10px;
+    border-radius: 10px;
+    border-color: rgb(109, 94, 28);
+    margin: 50px 300px 50px 300px;
+    padding: 50px 50px 50px 50px;
+    box-shadow: 0 10px 10px black;
+}
+input{
+    padding:10px 10px 10px 10px;
+    border-radius: 10px;
+    border-style:none;
+    box-shadow: 0 5px 5px black;
+}
+legend{
+    font-size: 40px;
+    font-family: Haettenschweiler, 'Arial Narrow Bold';
+    color: rgb(77, 54, 25);
+    font-style:bold;
+}
+button{
+    color: antiquewhite;
+    background-color:rgb(129, 104, 71) ;
+    border-radius: 12px;
+    box-shadow: 0 1px 5px black;
+    border-style:none;
+    padding:10px 50px 10px 50px;
+}
+button:hover{
+    padding:10px 100px 10px 100px;
+    transition: 2s;
+}
